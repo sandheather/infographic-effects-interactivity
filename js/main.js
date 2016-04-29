@@ -1,7 +1,12 @@
 var $bar = $('.chart');
 var $symbol = $('.symbol');
 var $female = $('.female');
-var $lines = $('.line-1');
+var $lineA = $('.line-1');
+var $lineB = $('.line-2');
+var $lineC = $('.line-3');
+var $lineD = $('.line-4');
+var $lineE = $('.line-5');
+var $middle = $('.middle');
 
 $bar.waypoint(function (direction) {
   if (direction == 'down') {
@@ -19,10 +24,42 @@ $female.waypoint(function (direction) {
   }
 }, { offset: '70%' });
 
-$female.waypoint(function (direction) {
+$middle.waypoint(function (direction) {
   if (direction == 'down') {
-    $symbol.addClass('js-symbol-animate')
+    $lineA.addClass('js-line-1-animate')
   } else {
-    $symbol.removeClass('js-symbol-animate');
+    $lineA.removeClass('js-line-1-animate');
   }
-}, { offset: '60%' });
+}, { offset: '80%' });
+
+$middle.waypoint(function (direction) {
+  if (direction == 'down') {
+    $lineB.addClass('js-line-2-animate')
+  } else {
+    $lineB.removeClass('js-line-2-animate');
+  }
+}, { offset: '85%' });
+
+$middle.waypoint(function (direction) {
+  if (direction == 'down') {
+    $lineC.addClass('js-line-3-animate')
+  } else {
+    $lineC.removeClass('js-line-3-animate');
+  }
+}, { offset: '90%' });
+
+$middle.waypoint(function (direction) {
+  if (direction == 'down') {
+    $lineD.addClass('js-line-4-animate')
+  } else {
+    $lineD.removeClass('js-line-4-animate');
+  }
+}, { offset: '95%' });
+
+$middle.waypoint(function (direction) {
+  if (direction == 'down') {
+    $lineE.addClass('js-line-5-animate')
+  } else {
+    $lineE.removeClass('js-line-5-animate');
+  }
+}, { offset: '100%' });
