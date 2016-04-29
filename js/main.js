@@ -10,56 +10,56 @@ var $middle = $('.middle');
 
 $bar.waypoint(function (direction) {
   if (direction == 'down') {
-  	$bar.addClass('js-bar-animate')
+    $bar.addClass('js-bar-animate');
   } else {
-  	$bar.removeClass('js-bar-animate');
+    $bar.removeClass('js-bar-animate');
   }
-}, { offset: '50%' });
+}, {offset: '50%'});
 
 $female.waypoint(function (direction) {
   if (direction == 'down') {
-  	$symbol.addClass('js-symbol-animate')
+    $symbol.addClass('js-symbol-animate');
   } else {
-  	$symbol.removeClass('js-symbol-animate');
+    $symbol.removeClass('js-symbol-animate');
   }
-}, { offset: '70%' });
+}, {offset: '70%'});
 
 $middle.waypoint(function (direction) {
   if (direction == 'down') {
-    $lineA.addClass('js-line-1-animate')
+    $lineA.addClass('js-line-1-animate');
   } else {
     $lineA.removeClass('js-line-1-animate');
   }
-}, { offset: '80%' });
+}, {offset: '80%'});
 
 $middle.waypoint(function (direction) {
   if (direction == 'down') {
-    $lineB.addClass('js-line-2-animate')
+    $lineB.addClass('js-line-2-animate');
   } else {
     $lineB.removeClass('js-line-2-animate');
   }
-}, { offset: '85%' });
+}, {offset: '85%'});
 
 $middle.waypoint(function (direction) {
   if (direction == 'down') {
-    $lineC.addClass('js-line-3-animate')
+    $lineC.addClass('js-line-3-animate');
   } else {
     $lineC.removeClass('js-line-3-animate');
   }
-}, { offset: '90%' });
+}, {offset: '90%'});
 
 $middle.waypoint(function (direction) {
   if (direction == 'down') {
-    $lineD.addClass('js-line-4-animate')
+    $lineD.addClass('js-line-4-animate');
   } else {
     $lineD.removeClass('js-line-4-animate');
   }
-}, { offset: '95%' });
+}, {offset: '95%'});
 
 $middle.waypoint(function (direction) {
   if (direction == 'down') {
-    $lineE.addClass('js-line-5-animate')
+    $lineE.addClass('js-line-5-animate');
   } else {
     $lineE.removeClass('js-line-5-animate');
   }
-}, { offset: '100%' });
+}, {offset: '100%'});
