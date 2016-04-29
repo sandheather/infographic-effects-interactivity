@@ -30,4 +30,4 @@ $middle.waypoint(function (direction) {
   } else {
     $middle.removeClass('js-middle-animate');
   }
-}, {offset: '55%'});
+}, {offset: '65%'});
