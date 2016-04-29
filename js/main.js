@@ -26,44 +26,8 @@ $female.waypoint(function (direction) {
 
 $middle.waypoint(function (direction) {
   if (direction == 'down') {
-    $lineA.addClass('js-line-1-animate');
+    $middle.addClass('js-middle-animate');
   } else {
-    $lineA.removeClass('js-line-1-animate');
+    $middle.removeClass('js-middle-animate');
   }
-}, {offset: '80%'});
-
-$middle.waypoint(function (direction) {
-  if (direction == 'down') {
-    $lineB.addClass('js-line-2-animate');
-  } else {
-    $lineB.removeClass('js-line-2-animate');
-  }
-}, {offset: '85%'});
-
-$middle.waypoint(function (direction) {
-  if (direction == 'down') {
-    $lineC.addClass('js-line-3-animate');
-  } else {
-    $lineC.removeClass('js-line-3-animate');
-  }
-}, {offset: '90%'});
-
-$middle.waypoint(function (direction) {
-  if (direction == 'down') {
-    $lineD.addClass('js-line-4-animate');
-  } else {
-    $lineD.removeClass('js-line-4-animate');
-  }
-}, {offset: '95%'});
-
-$middle.waypoint(function (direction) {
-  if (direction == 'down') {
-    $lineE.addClass('js-line-5-animate');
-  } else {
-    $lineE.removeClass('js-line-5-animate');
-  }
-}, {offset: '100%'});
-
-$move.on('click', '.move', function () {
-  $(this).addClass('.move:hover');
-});
+}, {offset: '55%'});
