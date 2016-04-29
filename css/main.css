@@ -343,46 +343,46 @@ svg {
 
 .line-1 {
   opacity: 0;
-  transition: all 1s ease-in;
+  transition: all 3s ease-out;
 }
 
-.js-line-1-animate {
+.js-middle-animate .line-1{
   opacity: 1;
 }
 
 .line-2 {
   opacity: 0;
-  transition: all 1s ease-in;
+  transition: all 3s ease-out;
 }
 
-.js-line-2-animate {
+.js-middle-animate .line-2{
   opacity: 1;
 }
 
 .line-3 {
   opacity: 0;
-  transition: all 1s ease-in;
+  transition: all 3s ease-out;
 }
 
-.js-line-3-animate {
+.js-middle-animate .line-3{
   opacity: 1;
 }
 
 .line-4 {
   opacity: 0;
-  transition: all 1s ease-in;
+  transition: all 3s ease-out;
 }
 
-.js-line-4-animate {
+.js-middle-animate .line-4{
   opacity: 1;
 }
 
 .line-5 {
   opacity: 0;
-  transition: all 1s ease-in;
+  transition: all 3s ease-out;
 }
 
-.js-line-5-animate {
+.js-middle-animate .line-5{
   opacity: 1;
 }
 
