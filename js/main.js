@@ -1,11 +1,6 @@
 var $bar = $('.chart');
 var $symbol = $('.symbol');
 var $female = $('.female');
-var $lineA = $('.line-1');
-var $lineB = $('.line-2');
-var $lineC = $('.line-3');
-var $lineD = $('.line-4');
-var $lineE = $('.line-5');
 var $middle = $('.middle');
 
 $bar.waypoint(function (direction) {
