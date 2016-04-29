@@ -27,7 +27,7 @@ svg {
 }
 
 .background:hover {
-   animation: background 40s ease-in infinite;
+  animation: background 40s ease-in infinite;
 }
 
 @keyframes background {
@@ -61,7 +61,7 @@ svg {
   }
 
   91% {
-    background-color: #d4eCe6;
+    background-color: #d4ece6;
   }
 
   100% {
@@ -71,7 +71,7 @@ svg {
 }
 
 .background:hover .background-svg {
-   animation: background-svg 40s ease-in infinite;
+  animation: background-svg 40s ease-in infinite;
 }
 
 @keyframes background-svg {
@@ -105,7 +105,7 @@ svg {
   }
 
   91% {
-    fill: #d4eCe6;
+    fill: #d4ece6;
   }
 
   100% {
@@ -175,7 +175,7 @@ svg {
   transform: rotate(30deg);
 }
 
-.whisker-left{
+.whisker-left {
   transition: all .5s linear;
   transform-origin: 429px 129px;
 }
@@ -193,6 +193,7 @@ svg {
   transition: all .5s linear;
   transform-origin: center center;
 }
+
 .title:hover .zoom {
   transform: scale(1.1, 1.1);
 }
@@ -200,38 +201,37 @@ svg {
 @keyframes zoom {
 
   0% {
-      transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
   }
 
   25% {
-     transform: scale(-1.5, -1.5);
+    transform: scale(-1.5, -1.5);
   }
 
   50% {
-     transform: scale(0, 0);
+    transform: scale(0, 0);
   }
 
   75% {
-     transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
   }
 
   100% {
-     transform: scale(-1.5, 1.5);
+    transform: scale(-1.5, 1.5);
   }
 }
 
-.move{
+.move {
   transform: rotate(0);
   transform-origin: 210px 317px;
 }
 
 .move:hover {
-animation: shake 1s linear forwards;
-cursor: pointer;
+  animation: shake 1s linear forwards;
+  cursor: pointer;
 }
 
 @keyframes shake {
-
 
   0% {
     transform: rotate(0);
@@ -270,11 +270,12 @@ cursor: pointer;
   }
 }
 
-
 @keyframes bar-up {
+
   0% {
     transform: scaley(0);
   }
+
   100% {
     transform: scaley(1);
   }
@@ -299,11 +300,9 @@ cursor: pointer;
   animation-delay: 250ms;
 }
 
-
 #bar-3 {
   animation-delay: 300ms;
 }
-
 
 #bar-4 {
   animation-delay: 350ms;
@@ -313,16 +312,16 @@ cursor: pointer;
   animation-delay: 400ms;
 }
 
-
 @keyframes colour-up {
+
   0% {
     transform: scaleY(0);
   }
+
   100% {
     transform: scaleY(1);
   }
 }
-
 
 .colour {
   animation: colour-up 2s ease-out;
