@@ -63,3 +63,7 @@ $middle.waypoint(function (direction) {
     $lineE.removeClass('js-line-5-animate');
   }
 }, {offset: '100%'});
+
+$move.on('click', '.move', function () {
+  $(this).addClass('.move:hover');
+});
