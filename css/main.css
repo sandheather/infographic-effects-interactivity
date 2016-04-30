@@ -408,6 +408,7 @@ svg {
 .dog-cat {
   width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .dog-cat .grid {
@@ -445,10 +446,10 @@ svg {
     display: inline-block;
   }
 
-  .chart {
-    float: left;
+  .table {
+
     margin-top: -18.5rem;
-    margin-bottom: 3rem;
+
   }
 
   .bottom {
